@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6ED514200F5FA30050B87E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6ED513200F5FA30050B87E /* AppDelegate.m */; };
+		CF6ED517200F5FA30050B87E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6ED516200F5FA30050B87E /* ViewController.m */; };
+		CF6ED51A200F5FA30050B87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6ED518200F5FA30050B87E /* Main.storyboard */; };
+		CF6ED51C200F5FA30050B87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6ED51B200F5FA30050B87E /* Assets.xcassets */; };
+		CF6ED51F200F5FA30050B87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6ED51D200F5FA30050B87E /* LaunchScreen.storyboard */; };
+		CF6ED522200F5FA30050B87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6ED521200F5FA30050B87E /* main.m */; };
+		CF6ED52C200F5FA30050B87E /* CifiterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6ED52B200F5FA30050B87E /* CifiterDemoTests.m */; };
+		CF6ED537200F5FA40050B87E /* CifiterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6ED536200F5FA40050B87E /* CifiterDemoUITests.m */; };
+		CF6ED54B200F64720050B87E /* WechatIMG1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF6ED54A200F64720050B87E /* WechatIMG1.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF6ED528200F5FA30050B87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6ED507200F5FA30050B87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6ED50E200F5FA30050B87E;
+			remoteInfo = CifiterDemo;
+		};
+		CF6ED533200F5FA40050B87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6ED507200F5FA30050B87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6ED50E200F5FA30050B87E;
+			remoteInfo = CifiterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF6ED50F200F5FA30050B87E /* CifiterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CifiterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6ED512200F5FA30050B87E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF6ED513200F5FA30050B87E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF6ED515200F5FA30050B87E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF6ED516200F5FA30050B87E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF6ED519200F5FA30050B87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF6ED51B200F5FA30050B87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF6ED51E200F5FA30050B87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF6ED520200F5FA30050B87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6ED521200F5FA30050B87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6ED527200F5FA30050B87E /* CifiterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CifiterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6ED52B200F5FA30050B87E /* CifiterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CifiterDemoTests.m; sourceTree = "<group>"; };
+		CF6ED52D200F5FA40050B87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6ED532200F5FA40050B87E /* CifiterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CifiterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6ED536200F5FA40050B87E /* CifiterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CifiterDemoUITests.m; sourceTree = "<group>"; };
+		CF6ED538200F5FA40050B87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6ED54A200F64720050B87E /* WechatIMG1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG1.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6ED50C200F5FA30050B87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6ED524200F5FA30050B87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6ED52F200F5FA40050B87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6ED506200F5FA30050B87E = {
+			isa = PBXGroup;
+			children = (
+				CF6ED511200F5FA30050B87E /* CifiterDemo */,
+				CF6ED52A200F5FA30050B87E /* CifiterDemoTests */,
+				CF6ED535200F5FA40050B87E /* CifiterDemoUITests */,
+				CF6ED510200F5FA30050B87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6ED510200F5FA30050B87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6ED50F200F5FA30050B87E /* CifiterDemo.app */,
+				CF6ED527200F5FA30050B87E /* CifiterDemoTests.xctest */,
+				CF6ED532200F5FA40050B87E /* CifiterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6ED511200F5FA30050B87E /* CifiterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF6ED54A200F64720050B87E /* WechatIMG1.jpeg */,
+				CF6ED512200F5FA30050B87E /* AppDelegate.h */,
+				CF6ED513200F5FA30050B87E /* AppDelegate.m */,
+				CF6ED515200F5FA30050B87E /* ViewController.h */,
+				CF6ED516200F5FA30050B87E /* ViewController.m */,
+				CF6ED518200F5FA30050B87E /* Main.storyboard */,
+				CF6ED51B200F5FA30050B87E /* Assets.xcassets */,
+				CF6ED51D200F5FA30050B87E /* LaunchScreen.storyboard */,
+				CF6ED520200F5FA30050B87E /* Info.plist */,
+				CF6ED521200F5FA30050B87E /* main.m */,
+			);
+			path = CifiterDemo;
+			sourceTree = "<group>";
+		};
+		CF6ED52A200F5FA30050B87E /* CifiterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6ED52B200F5FA30050B87E /* CifiterDemoTests.m */,
+				CF6ED52D200F5FA40050B87E /* Info.plist */,
+			);
+			path = CifiterDemoTests;
+			sourceTree = "<group>";
+		};
+		CF6ED535200F5FA40050B87E /* CifiterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6ED536200F5FA40050B87E /* CifiterDemoUITests.m */,
+				CF6ED538200F5FA40050B87E /* Info.plist */,
+			);
+			path = CifiterDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6ED50E200F5FA30050B87E /* CifiterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6ED53B200F5FA40050B87E /* Build configuration list for PBXNativeTarget "CifiterDemo" */;
+			buildPhases = (
+				CF6ED50B200F5FA30050B87E /* Sources */,
+				CF6ED50C200F5FA30050B87E /* Frameworks */,
+				CF6ED50D200F5FA30050B87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CifiterDemo;
+			productName = CifiterDemo;
+			productReference = CF6ED50F200F5FA30050B87E /* CifiterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF6ED526200F5FA30050B87E /* CifiterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6ED53E200F5FA40050B87E /* Build configuration list for PBXNativeTarget "CifiterDemoTests" */;
+			buildPhases = (
+				CF6ED523200F5FA30050B87E /* Sources */,
+				CF6ED524200F5FA30050B87E /* Frameworks */,
+				CF6ED525200F5FA30050B87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6ED529200F5FA30050B87E /* PBXTargetDependency */,
+			);
+			name = CifiterDemoTests;
+			productName = CifiterDemoTests;
+			productReference = CF6ED527200F5FA30050B87E /* CifiterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF6ED531200F5FA40050B87E /* CifiterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6ED541200F5FA40050B87E /* Build configuration list for PBXNativeTarget "CifiterDemoUITests" */;
+			buildPhases = (
+				CF6ED52E200F5FA40050B87E /* Sources */,
+				CF6ED52F200F5FA40050B87E /* Frameworks */,
+				CF6ED530200F5FA40050B87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6ED534200F5FA40050B87E /* PBXTargetDependency */,
+			);
+			name = CifiterDemoUITests;
+			productName = CifiterDemoUITests;
+			productReference = CF6ED532200F5FA40050B87E /* CifiterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF6ED507200F5FA30050B87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "知言网络";
+				TargetAttributes = {
+					CF6ED50E200F5FA30050B87E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CF6ED526200F5FA30050B87E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF6ED50E200F5FA30050B87E;
+					};
+					CF6ED531200F5FA40050B87E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF6ED50E200F5FA30050B87E;
+					};
+				};
+			};
+			buildConfigurationList = CF6ED50A200F5FA30050B87E /* Build configuration list for PBXProject "CifiterDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF6ED506200F5FA30050B87E;
+			productRefGroup = CF6ED510200F5FA30050B87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6ED50E200F5FA30050B87E /* CifiterDemo */,
+				CF6ED526200F5FA30050B87E /* CifiterDemoTests */,
+				CF6ED531200F5FA40050B87E /* CifiterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6ED50D200F5FA30050B87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6ED51F200F5FA30050B87E /* LaunchScreen.storyboard in Resources */,
+				CF6ED54B200F64720050B87E /* WechatIMG1.jpeg in Resources */,
+				CF6ED51C200F5FA30050B87E /* Assets.xcassets in Resources */,
+				CF6ED51A200F5FA30050B87E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6ED525200F5FA30050B87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6ED530200F5FA40050B87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6ED50B200F5FA30050B87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6ED517200F5FA30050B87E /* ViewController.m in Sources */,
+				CF6ED522200F5FA30050B87E /* main.m in Sources */,
+				CF6ED514200F5FA30050B87E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6ED523200F5FA30050B87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6ED52C200F5FA30050B87E /* CifiterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6ED52E200F5FA40050B87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6ED537200F5FA40050B87E /* CifiterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6ED529200F5FA30050B87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6ED50E200F5FA30050B87E /* CifiterDemo */;
+			targetProxy = CF6ED528200F5FA30050B87E /* PBXContainerItemProxy */;
+		};
+		CF6ED534200F5FA40050B87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6ED50E200F5FA30050B87E /* CifiterDemo */;
+			targetProxy = CF6ED533200F5FA40050B87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF6ED518200F5FA30050B87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6ED519200F5FA30050B87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF6ED51D200F5FA30050B87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6ED51E200F5FA30050B87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF6ED539200F5FA40050B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF6ED53A200F5FA40050B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF6ED53C200F5FA40050B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CifiterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengke.CifiterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF6ED53D200F5FA40050B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CifiterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengke.CifiterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF6ED53F200F5FA40050B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975N9Y458Z;
+				INFOPLIST_FILE = CifiterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengke.CifiterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CifiterDemo.app/CifiterDemo";
+			};
+			name = Debug;
+		};
+		CF6ED540200F5FA40050B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975N9Y458Z;
+				INFOPLIST_FILE = CifiterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengke.CifiterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CifiterDemo.app/CifiterDemo";
+			};
+			name = Release;
+		};
+		CF6ED542200F5FA40050B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975N9Y458Z;
+				INFOPLIST_FILE = CifiterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengke.CifiterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CifiterDemo;
+			};
+			name = Debug;
+		};
+		CF6ED543200F5FA40050B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975N9Y458Z;
+				INFOPLIST_FILE = CifiterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengke.CifiterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CifiterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF6ED50A200F5FA30050B87E /* Build configuration list for PBXProject "CifiterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6ED539200F5FA40050B87E /* Debug */,
+				CF6ED53A200F5FA40050B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6ED53B200F5FA40050B87E /* Build configuration list for PBXNativeTarget "CifiterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6ED53C200F5FA40050B87E /* Debug */,
+				CF6ED53D200F5FA40050B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6ED53E200F5FA40050B87E /* Build configuration list for PBXNativeTarget "CifiterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6ED53F200F5FA40050B87E /* Debug */,
+				CF6ED540200F5FA40050B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6ED541200F5FA40050B87E /* Build configuration list for PBXNativeTarget "CifiterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6ED542200F5FA40050B87E /* Debug */,
+				CF6ED543200F5FA40050B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF6ED507200F5FA30050B87E /* Project object */;
+}
